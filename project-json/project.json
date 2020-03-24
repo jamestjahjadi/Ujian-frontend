@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "james",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "corona",
+      "password": "12",
+      "role": "user"
+    },
+    {
+      "username": "budi",
+      "password": "1234",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "shania",
+      "password": "1234",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "katalog": "Stussy SandSculpture Tee",
+      "category": "T-shirt",
+      "brandId": "1",
+      "description": "Short sleeve t-shirt - Screenprint 100% Cotton - Imported.  * This garment has been individually dyed producing a one of a kind result. Due to the unique process color may fade or bleed after wash.",
+      "price": "800000",
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/products/1904524_BLAC_1_900x.jpg?v=1581025407",
+      "id": 11
+    },
+    {
+      "katalog": "Supreme fw17 ",
+      "category": "Hoodie",
+      "brandId": "2",
+      "description": "Supreme FW17 Box Logo hoodie, Ice Blue, Size Medium. Brand new.",
+      "price": "15000000",
+      "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:1400,fit:scale/output=quality:90/compress/https://cdn.fs.grailed.com/api/file/BUu6ZYgtQBuvPunbiLqc",
+      "id": 12
+    },
+    {
+      "katalog": "Anti Social Social Club x Fragment",
+      "category": "Hoodie",
+      "brandId": "3",
+      "description": "Fragment x Assc Blue Bolt Hoodie 100% Cotton Fleece  8.0 oz",
+      "price": "4600000",
+      "image": "https://cdn.shopify.com/s/files/1/1133/9738/products/Screen_Shot_2020-01-28_at_2.47.40_PM_800x.png?v=1580197930",
+      "id": 13
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "stussy"
+    },
+    {
+      "id": 2,
+      "name": "supreme"
+    },
+    {
+      "id": 3,
+      "name": "anti social social club"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "status": "oncart",
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 11,
+      "id": 1
+    },
+    {
+      "transactionId": 1,
+      "productId": 13,
+      "id": 2
+    },
+    {
+      "transactionId": 1,
+      "productId": 12,
+      "id": 3
+    },
+    {
+      "transactionId": 1,
+      "productId": 13,
+      "id": 4
+    },
+    {
+      "transactionId": 2,
+      "productId": 12,
+      "id": 5
+    }
+  ]
+}
